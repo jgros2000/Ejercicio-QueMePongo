@@ -6,9 +6,10 @@ public class PrendaBuilder {
   Trama trama = Trama.lisa;
   Material material;
   Color color;
+  Integer temp = 0;
 
   public Prenda crearPrenda(){
-    return new Prenda(this.tipo,this.trama,this.material,this.color);
+    return new Prenda(this.tipo,this.trama,this.material,this.color,this.temp);
   }
 
   public void tipo(Tipo tipo){
